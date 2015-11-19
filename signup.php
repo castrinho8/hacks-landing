@@ -1,6 +1,8 @@
 <?php
 
 ob_start();
+
+define('ENTRY_POINT', true);
 require_once('./api.php');
 
 // Check for empty fields
