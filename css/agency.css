@@ -286,6 +286,19 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.header-hack {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/background/iot.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -889,4 +902,35 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+#registration-hack {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url(../img/background/hackathon1.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#visitors {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url(../img/background/coru1.jpg);
+  background-position: 10% 35%;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#map {
+  padding: 0px 5px 150px 5px;
+  margin: 5px 5px 0px 10px;
 }
