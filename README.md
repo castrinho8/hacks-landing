@@ -1,4 +1,6 @@
 # GPUL Labs landing page
+[![](https://badge.imagelayers.io/gpul/labs-landing:latest.svg)](https://imagelayers.io/?images=gpul/labs-landing:latest 'Docker image size')
+
 Landing page para el proyecto GPUL Labs
 
 ### Licencia
