@@ -153,7 +153,7 @@
             <h3 class="section-subheading text-muted text-center">A cacharrear se ha dicho!!</h3>
           </div>
           <div class="col-sm-12 col-md-12">
-            <div class="col-sm-5 col-md-5 col-md-offset-1">
+            <div class="col-sm-6 col-md-6 col-md-offset-3">
               <table class="table">
                 <tr>
                   <th>Horario</th>
@@ -186,26 +186,6 @@
                 <tr>
                   <td>21:30</td>
                   <td>Cena</td>
-                <tr/>
-              </table>
-            </div>
-            <div class="col-sm-5 col-md-5 col-md-offset-1">
-              <table class="table">
-                <tr>
-                  <th>Horario</th>
-                  <th>Actividad</th>
-                <tr/>
-                <tr>
-                  <td>10:15 - 11:00</td>
-                  <td>Sensores avanzados con Raspberry</td>
-                <tr/>
-                <tr>
-                  <td>13:40 - 14:00</td>
-                  <td>Modelos negocio con software libre</td>
-                <tr/>
-                <tr>
-                  <td>15:00 - 15:45</td>
-                  <td><i>Espacio libre para otras charlas</i></td>
                 <tr/>
               </table>
             </div>
@@ -321,15 +301,14 @@
           <div class="row">
               <div class="col-lg-12 text-center">
                   <h2 class="section-heading">Cómo llegar</h2>
-                  <h3 class="section-subheading">En el mismo centro de la ciudad de A Coruña<h3/>
-                  <h3>Localización por confirmar</h3>
+                  <h3>Oficinas de Igalia<h3/>
               </div>
           </div>
       </div>
   </section>
 
   <!-- Map Section -->
-<!--
+
     <section id="map" class="pfblock pfblock-gray">
       <div class="">
 
@@ -345,14 +324,14 @@
             </div>
             <div style="height: 340px; position: relative; z-index: -1"></div>
             <small>
-              <a href="http://www.openstreetmap.org/#map=19/43.37658/-8.40568&layers=N">Ver en un mapa más grande</a>
+              <a href="http://www.openstreetmap.org/node/3777062121#map=19/43.34602/-8.40961&layers=N">Ver en un mapa más grande</a>
             </small>
 
           </div>
       </div>
 
     </section>
-  -->
+
     <br/>
     <!-- Contact Section -->
     <section id="contact">
@@ -404,6 +383,8 @@
                       <span>Foto 1: <a target="_blank" href="https://www.flickr.com/photos/medialab-prado/">MediaLab Prado</a>.</span>
                       <span>Foto 2: <a target="_blank" href="https://www.flickr.com/photos/andreweland/">Andrew Eland, Flickr</a>.</span>
                       <span>Foto 3: <a target="_blank" href="https://www.flickr.com/photos/gaby1/">Gabriel González, Flickr</a>.</span>
+                      <br/>
+                      <span>Foto 4: <a target="_blank" href="https://www.flickr.com/photos/aperezdc/15972643911/">Adrián Perez, Flickr</a>.</span>
                     </p>
                 </p>
             </div>
@@ -533,14 +514,15 @@
 
       var map = L.map('leafmap', {
         scrollWheelZoom: false,
-        center: [43.3737, -8.4020],
-        zoom: 15
+        center: [43.34609, -8.4095774],
+        zoom: 16
       });
 
-      var marker = L.marker([43.37658, -8.40568]).addTo(map);
-      marker.bindPopup("<strong>EIX</strong><br />Espacio de Iniciativas Xuvenís<br />" +
-      "Rúa Matadoiro, nº 68, 15002, A Coruña<br />" +
-      "<a target='_blank' href='http://www.openstreetmap.org/#map=19/43.37658/-8.40568&layers=N'>Ver en OpenStreetMap</a>").openPopup();
+      var marker = L.marker([43.34609, -8.4095774]).addTo(map);
+      marker.bindPopup(
+      "<img class='img-responsive' src='img/logos/sponsors/igalia.png' width='20%''>" +
+      "<br/>Jose Luis Bugallal Marchesí, nº 22, 15008, A Coruña<br />" +
+      "<a target='_blank' href='http://www.openstreetmap.org/node/3777062121#map=19/43.34602/-8.40961&layers=N'>Ver en OpenStreetMap</a>").openPopup();
 
       map.addLayer(layer);
       })
