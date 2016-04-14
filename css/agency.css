@@ -290,7 +290,7 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/background/iot.jpg);
+    background-image: url(../img/background/hackathon3.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -908,8 +908,8 @@ body {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/background/hackathon1.jpg);
-  background-position: center center;
+  background-image: url(../img/background/hackathon2.jpg);
+  background-position: 40% 30%;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -921,8 +921,8 @@ body {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/background/igalia_office.jpg);
-  background-position: 10% 35%;
+  background-image: url(../img/background/matadero.jpg);
+  background-position: 40% 50%;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -933,4 +933,17 @@ body {
 #map {
   padding: 0px 5px 150px 5px;
   margin: 5px 5px 0px 10px;
+}
+
+.container {
+    width: 12w70px;
+}
+
+.naming {
+  margin-left: 20px;
+  text-align: left;
+  padding-top: 120px;
+  padding-bottom: 10px;
+  margin-bottom: -120px;
+  font-size: 10px;
 }
