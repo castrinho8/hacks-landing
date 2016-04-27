@@ -378,9 +378,9 @@
                 </div>
             </div>
             <div class="col-lg-offset-2 col-lg-8">
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="img/license.png" /></a>
+                <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="img/license.png" /></a>
                 <br/>
-                <span id="license-txt-first">Esta obra está bajo una</span> <a  id="license-txt-second" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
+                <span id="license-txt-first">Esta obra está bajo una</span> <a  id="license-txt-second" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
                 <br>
                 <p>
                     <span id="license-txt-third">Se encuentra publicada en el siguiente</span><a href="https://github.com/gpul-org/hacks-landing" target="_blank"> repositorio público de GitHub</a>
@@ -453,7 +453,7 @@
                               prácticamente presentes en cualquier dispositivo basado en un kernel de
                               Linux.
                             </p>
-                            <a type="button" class="btn btn-secondary" target="_blank" href="http://www.igalia.com/">Ir a su web</a>
+                            <a type="button" class="btn btn-secondary" target="_blank" href="https://www.igalia.com/">Ir a su web</a>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Volver</button>
                         </div>
                     </div>
@@ -544,9 +544,10 @@
       var layer = L.tileLayer(
       // 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}'
       // 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
-      'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
+      // 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
+      'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png'
       , {
-      attribution: 'Map tiles by <a href="http://cartodb.com/attributions#basemaps">CartoDB</a>, under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Data by <a href="http://www.openstreetmap.org/">OpenStreetMap</a>, under ODbL.'
+      attribution: 'Map tiles by <a href="https://cartodb.com/attributions#basemaps">CartoDB</a>, under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Data by <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, under ODbL.'
       });
 
       var map = L.map('leafmap', {
