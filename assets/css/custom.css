@@ -1,0 +1,125 @@
+.secondary-color {
+	background-color: #fed136;
+	color: white;
+}
+
+.btn-primary {
+  border-color: #fed136;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: #fed136;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+#registration {
+	background: url(../img/background/work_zone.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 350px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#registration h1 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+	font-size: 60px;
+}
+
+#registration h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+#registration i {
+	color: white;
+	font-size: 45px;
+}
+
+#sponsors {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.ot-circle {
+	height: 95px;
+	width: 95px;
+	text-align: center;
+	line-height: 98px;
+	color: #FFFFFF;
+	/* border: 3px solid #000; */
+	border-radius: 100px;
+	background-color: #fed136;
+	margin: 0 2px 4px;
+	font-size: 35px;
+}
+
+.ot-circle-small {
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	line-height: 60px;
+	color: #FFFFFF;
+	/* border: 3px solid #000; */
+	border-radius: 100px;
+	background-color: #fed136;
+	margin: 0 2px 4px;
+  padding-top: 15px;
+	font-size: 24px;
+}
