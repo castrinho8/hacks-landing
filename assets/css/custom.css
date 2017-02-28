@@ -123,3 +123,19 @@ fieldset[disabled] .btn-primary.active {
   padding-top: 15px;
 	font-size: 24px;
 }
+
+#team .team-member p {
+	margin-bottom: 0px;
+}
+
+.team-row {
+	padding-bottom: 25px;
+}
+
+.naming {
+	color: white;
+  text-align: right;
+	margin-right: -100px;
+  padding-top: 500px;
+  font-size: 10px;
+}
