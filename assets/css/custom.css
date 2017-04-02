@@ -139,3 +139,7 @@ fieldset[disabled] .btn-primary.active {
   padding-top: 500px;
   font-size: 10px;
 }
+
+#sponsors img {
+	margin: auto;
+}
