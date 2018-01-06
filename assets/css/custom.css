@@ -3,6 +3,16 @@
 	color: white;
 }
 
+.third-color {
+	background-color: #74c9be;
+	color: white;
+}
+
+.third-color:hover {
+	background-color: #68b7ae;
+	color: white;
+}
+
 .btn-primary {
   border-color: #fed136;
   text-transform: uppercase;
@@ -53,13 +63,17 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+#topics {
+	padding-bottom: 50px;
+}
+
 #registration {
-	background: url(../img/background/work_zone.jpg) no-repeat center top;
+	background: url(../img/background/labs2017.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:100px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: 45% 45%;
 	min-height: 350px;
 	width: 100%;
 

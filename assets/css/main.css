@@ -322,9 +322,9 @@ p.capitalize:first-letter {
 /* ================== MAIN WRAP SECTIONS ================== */
 
 #headerwrap {
-	background: url(../img/background/hackathon.jpg) no-repeat center top;
+	background: url(../img/background/hackathino.jpg) no-repeat center top;
 	margin-top: 0px;
-	padding-top: 200px;
+	padding-top: 150px;
 	background-attachment: relative;
 	background-position: 25% 25%;
 	min-height: 550px;
